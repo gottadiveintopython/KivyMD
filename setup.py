@@ -43,6 +43,7 @@ if __name__ == "__main__":
                 "images/*.jpg",
                 "images/*.atlas",
                 "fonts/*.ttf",
+                "fonts/*.otf",
             ]
         },
         extras_require={},

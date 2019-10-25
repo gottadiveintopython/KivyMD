@@ -328,19 +328,19 @@ class ThemeManager(Widget):
     # font name, size (sp), always caps, letter spacing (sp)
     font_styles = DictProperty(
         {
-            "H1": ["RobotoLight", 96, False, -1.5],
-            "H2": ["RobotoLight", 60, False, -0.5],
-            "H3": ["Roboto", 48, False, 0],
-            "H4": ["Roboto", 34, False, 0.25],
-            "H5": ["Roboto", 24, False, 0],
-            "H6": ["RobotoMedium", 20, False, 0.15],
-            "Subtitle1": ["Roboto", 16, False, 0.15],
-            "Subtitle2": ["RobotoMedium", 14, False, 0.1],
-            "Body1": ["Roboto", 16, False, 0.5],
-            "Body2": ["Roboto", 14, False, 0.25],
-            "Button": ["RobotoMedium", 14, True, 1.25],
-            "Caption": ["Roboto", 12, False, 0.4],
-            "Overline": ["Roboto", 10, True, 1.5],
+            "H1": ["DefaultJapaneseFont", 96, False, -1.5],
+            "H2": ["DefaultJapaneseFont", 60, False, -0.5],
+            "H3": ["DefaultJapaneseFont", 48, False, 0],
+            "H4": ["DefaultJapaneseFont", 34, False, 0.25],
+            "H5": ["DefaultJapaneseFont", 24, False, 0],
+            "H6": ["DefaultJapaneseFont", 20, False, 0.15],
+            "Subtitle1": ["DefaultJapaneseFont", 16, False, 0.15],
+            "Subtitle2": ["DefaultJapaneseFont", 14, False, 0.1],
+            "Body1": ["DefaultJapaneseFont", 16, False, 0.5],
+            "Body2": ["DefaultJapaneseFont", 14, False, 0.25],
+            "Button": ["DefaultJapaneseFont", 14, True, 1.25],
+            "Caption": ["DefaultJapaneseFont", 12, False, 0.4],
+            "Overline": ["DefaultJapaneseFont", 10, True, 1.5],
             "Icon": ["Icons", 24, False, 0],
         }
     )
