@@ -1,7 +1,7 @@
 # Format Python
 [tool.black]
 line-length = 80
-target-version = ['py37', 'py38', 'py39', 'py310']
+target-version = ['py310', 'py311']
 include = '(\.pyi?$|\.spec$)'
 exclude = '''
 (
@@ -31,4 +31,25 @@ multi_line_output = 3
 use_parentheses = true
 force_grid_wrap = 0
 ensure_newline_before_comments = true
-known_third_party = ["setuptools", "kivy", "requests", "PIL", "android", "jnius", "watchdog", "sphinx", "docutils", "autoapi", "unidecode"]
+known_third_party = ["setuptools", "kivy", "requests", "pillow", "android", "jnius", "watchdog", "sphinx", "docutils", "autoapi", "unidecode"]
+
+
+[tool.poetry]
+name = "kivymd"
+version = "2.0.1.dev0"
+description = ""
+authors = ["Andrés Rodríguez", "Yuri Ivanov"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+kivy = "2.3.0"
+asynckivy = "^0.7"
+pillow = "^11.0.0"
+materialyoucolor = "^2.0.9"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
