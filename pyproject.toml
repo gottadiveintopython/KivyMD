@@ -48,6 +48,7 @@ kivy = "2.3.0"
 asynckivy = "^0.7"
 pillow = "^11.0.0"
 materialyoucolor = "^2.0.9"
+kivy-garden-i18n = "~0.2"
 
 
 [build-system]

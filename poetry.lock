@@ -311,6 +311,17 @@ files = [
 requests = "*"
 
 [[package]]
+name = "kivy-garden-i18n"
+version = "0.2.0"
+description = "i18n for Kivy"
+optional = false
+python-versions = ">=3.10,<4.0"
+files = [
+    {file = "kivy_garden_i18n-0.2.0-py3-none-any.whl", hash = "sha256:70a5478259f75ed8b5cc0eb966dbe284d0cc2f5968583b28167da379fe008a7a"},
+    {file = "kivy_garden_i18n-0.2.0.tar.gz", hash = "sha256:01caffbccb35f23d15995f00c89938fa98f822188a5109b24a554fce0a041981"},
+]
+
+[[package]]
 name = "materialyoucolor"
 version = "2.0.9"
 description = "Material You color generation algorithms in pure python!"
@@ -521,4 +532,4 @@ zstd = ["zstandard (>=0.18.0)"]
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.11"
-content-hash = "85b4d1046b27680dbc19c3e28d96c720a36005013e6ca5e698e59571943ba64d"
+content-hash = "f71efedb40dcdaa531cfd22740ada42130b17c07beeda0edb008838c09b9b713"
